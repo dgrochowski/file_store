@@ -1,5 +1,5 @@
 
-###Good to know:
+### Good to know:
 1. first of all: `composer install`
 2. set pin in the `pin` file (4x int)
 3. `web` is a root dir
