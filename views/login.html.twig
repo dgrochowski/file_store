@@ -1,0 +1,13 @@
+{% include '_header.html.twig' %}
+
+<center>
+    {% if error %}<span style='color:red;'>Błędny PIN, spróbuj ponownie.</span>{% endif %}
+    <br>
+    <big>Podaj PIN:</big>
+    <form method='post'>
+        <input type='password' minlength='4' maxlength='4' name='pin' style='width: 100px; font-size: 16px; text-align: center;' /><br>
+        <input type='submit' style='width: 100px; font-size: 16px;' />
+    </form>
+</center>
+
+{% include '_footer.html.twig' %}

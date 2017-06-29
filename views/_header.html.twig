@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>{% if title %}{{ title }}{% endif %}{% if subtitle %} | {{ subtitle }}{% endif %}</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div id="title">{% if title %}{{ title }}{% endif %}</div>
+    <div id="subtitle">{% if subtitle %}{{ subtitle }}{% endif %}</div>
+    {% if logout %}<div id="logout"><a href="?logout">wyloguj</a></div>{% endif %}
+</div>
+<div class="clear"></div>
+<div id="content">

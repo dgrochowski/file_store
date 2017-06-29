@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Iosevka;
+    src: url(iosevka-type-slab-medium.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Iosevka;
+}
+
+a {
+    color: #100D08;
+    text-decoration: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    padding: 5px;
+}
+
+ul li a:hover {
+    background: yellow;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background: #1F7369;
+    border-bottom: 5px solid #5C9991;
+    color: #EAF2F1;
+}
+
+#header a {
+    color: #EAF2F1;
+}
+
+#header #title {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+#header #subtitle {
+    padding-left: 45px;
+    font-size: 14px;
+}
+
+#header #logout {
+    float: right;
+    padding-right: 30px;
+}
+
+#content {
+    padding: 3% 10%;
+    color: #100D08;
+    margin-bottom: 55px;
+}
+
+#footer {
+    color: #EAECED;
+    opacity: 0.5;
+    border-top: 5px solid #455860;
+    background: #264653;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0!important;
+}
+
+#footer #left {
+    float: left;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+#footer #right {
+    float: right;
+    padding-right: 20px;
+    padding-top: 2px;
+}

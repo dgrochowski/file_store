@@ -1,0 +1,16 @@
+{% include '_header.html.twig' %}
+
+<h1>Lista plików do pobrania:</h1>
+<ul>
+{% for key, file in files %}
+    {% if file != '.' and file != '..' %}
+        <li><a href='?get={{ key }}'>{{ file }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+{% if files|length <= 2 %}
+    <i>brak plików do pobrania</i>
+{% endif %}
+
+{% include '_footer.html.twig' %}
